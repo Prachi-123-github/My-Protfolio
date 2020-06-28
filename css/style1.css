@@ -1,0 +1,131 @@
+.bg-black{
+background-color:black;
+}
+.bg-gray{
+	background-color:gray;
+	}
+	
+
+.bbod{
+	border: #474787 solid 3px;
+	border-radius: 5%;
+}
+img
+{
+	width:100%;
+	height:100%
+}
+
+.font-div
+{
+	width:30%;
+}
+.divchange
+{
+	animation: bgcolor infinite 20s;
+}
+
+.divchange1
+{
+	animation: bgcolor2 infinite 20s;
+}
+
+.divchange2
+{
+	animation: bgcolor3 infinite 20s;
+}
+
+
+@media only screen and (min-width: 992px)
+{
+	.font-div{
+		padding: 90px 0px!important;
+	}
+}
+
+@keyframes bgcolor{
+	0%
+	{
+		background:#1abc9c;
+	}
+	20%
+	{
+		background:#e74c3c;
+	}
+	40%
+	{
+		background:#bdc3c7;
+	}
+	60%
+	{
+		background:#2ecc71;
+	}
+	80%
+	{
+		background:#8c7ae6;
+	}
+	100%
+	{
+		background:#7f8fa6;
+		
+	}
+}
+
+
+
+@keyframes bgcolor2{
+	0%
+	{
+		background:#22b673;
+	}
+	20%
+	{
+		background:#ecbc6c;
+	}
+	40%
+	{
+		background:#146f46;
+	}
+	60%
+	{
+		background:#b97f85;
+	}
+	80%
+	{
+		background:#d6d1a8;
+	}
+	100%
+	{
+		background:#7b25fb;
+		
+	}
+}
+
+
+@keyframes bgcolor3{
+	0%
+	{
+		background:#d51e25;
+	}
+	20%
+	{
+		background:#a4d46c;
+	}
+	40%
+	{
+		background:#5c802a;
+	}
+	60%
+	{
+		background:#ad6b74;
+	}
+	80%
+	{
+		background:#d1dfba;
+	}
+	100%
+	{
+		background:#ccae62;
+		
+	}
+}
